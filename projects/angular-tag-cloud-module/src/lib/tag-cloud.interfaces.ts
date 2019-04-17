@@ -2,6 +2,7 @@
  * Defines the attributes for a single Cloud element
  */
 export interface CloudData {
+  id?: number;
   /**
    * Set the text string for the Cloud element
    */

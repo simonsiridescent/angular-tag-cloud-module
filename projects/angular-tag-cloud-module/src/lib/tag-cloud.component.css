@@ -39,11 +39,32 @@ span.w3 { color: #a0ddff; }
 span.w2 { color: #99ccee; }
 span.w1 { color: #aab5f0; }
 
+.button-stopword {
+  color: #b8b8b8;
+  /* width: 20px; */
+  /* height: 20px; */
+  margin-left: 5px;
+}
+
+.button-stopword-active {
+  color: #ff5722;
+  margin-left: 5px;
+}
+
+/* .button-stopword:hover {
+  color: white !important;
+} */
+
+.button-stopword:active, .button-stopword-active:active {
+  color: grey;
+}
+
 .tooltip .tooltiptext {
   visibility: hidden;
   width: inherit;
   background-color: #555;
-  color: #fff;
+  /* color: #00d64b; */
+  color: white !important;
   text-align: center;
   border-radius: 6px;
   padding: 5px 10px;
@@ -69,3 +90,14 @@ span.w1 { color: #aab5f0; }
   visibility: visible;
   opacity: 1;
 }
+
+.color_1 { color: #008080 !important }
+.color_2 { color: #8A2BE2 !important }
+.color_3 { color: #af3870 !important }
+.color_4 { color: #6495ED !important }
+.color_5 { color: #006400 !important }
+.color_6 { color: #8c8c8c !important }
+.color_7 { color: #FF7F50 !important }
+.color_8 { color: #FFA500 !important }
+.color_9 { color: #a60a02 !important }
+.color_10 { color: #0030a6 !important }
